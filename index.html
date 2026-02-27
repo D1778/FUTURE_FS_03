@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Crust Bakery | Freshly Baked Artisan Bread & Pastries</title>
+    <meta name="description"
+        content="Experience the finest artisan breads, custom cakes, and daily pastries at Golden Crust Bakery. Baked fresh daily with local, organic ingredients.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Golden Crust</span>
+                <span class="logo-sub">Bakery</span>
+            </a>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#offerings">Our Offerings</a>
+                <a href="#about">Our Story</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="btn btn-orange nav-cta">Order Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <span class="hero-subtitle">Baked Fresh Daily</span>
+                <h1 class="hero-title">Artisan Bread &<br>Exquisite Pastries</h1>
+                <p class="hero-description">Crafted with passion, baked with tradition. Experience the warmth of freshly
+                    baked goods right in your neighborhood.</p>
+                <div class="hero-actions">
+                    <a href="#offerings" class="btn btn-primary">Explore Menu</a>
+                    <a href="#contact" class="btn btn-outline">Visit Bakery</a>
+                </div>
+            </div>
+
+            <!-- Scroll indicator -->
+            <a href="#offerings" class="scroll-indicator" aria-label="Scroll down">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M19 12l-7 7-7-7" />
+                </svg>
+            </a>
+        </section>
+
+        <!-- Offerings Section -->
+        <section id="offerings" class="section bg-cream">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">What We Bake</span>
+                    <h2 class="section-title">Our Signature Offerings</h2>
+                    <p class="section-description">From crusty sourdough to delicate macarons, everything is made from
+                        scratch every morning.</p>
+                </div>
+
+                <div class="offerings-grid">
+                    <!-- Offering 1 -->
+                    <div class="offering-card fade-up">
+                        <div class="card-img-wrapper">
+                            <img src="assets/samosa.webp" alt="Fresh Baked Samosa" class="card-img">
+                            <div class="card-overlay">
+                                <a href="#contact" class="btn btn-orange btn-sm">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Baked Samosas</h3>
+                            <p>Our signature baked (not fried!) samosas with a flaky crust and perfectly spiced potato
+                                filling.</p>
+                        </div>
+                    </div>
+
+                    <!-- Offering 2 -->
+                    <div class="offering-card fade-up delay-1">
+                        <div class="card-img-wrapper">
+                            <img src="assets/nan-khatai.jpg" alt="Fresh Nankhatai Biscuits" class="card-img">
+                            <div class="card-overlay">
+                                <a href="#contact" class="btn btn-orange btn-sm">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Nankhatai</h3>
+                            <p>Traditional Indian shortbread biscuits flavored with cardamom and topped with pistachios,
+                                melting in your mouth.</p>
+                        </div>
+                    </div>
+
+                    <!-- Offering 3 -->
+                    <div class="offering-card fade-up delay-2">
+                        <div class="card-img-wrapper">
+                            <img src="assets/rusk.jpeg" alt="Crispy Cake Rusk" class="card-img">
+                            <div class="card-overlay">
+                                <a href="#contact" class="btn btn-orange btn-sm">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Cake Rusk</h3>
+                            <p>Twice-baked to achieve the perfect crispness. The ultimate companion for your morning or
+                                evening chai.</p>
+                        </div>
+                    </div>
+
+                    <!-- Offering 4 -->
+                    <div class="offering-card fade-up">
+                        <div class="card-img-wrapper">
+                            <img src="assets/jalebi.jpg" alt="Crispy Jalebi" class="card-img">
+                            <div class="card-overlay">
+                                <a href="#contact" class="btn btn-orange btn-sm">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Classic Jalebi</h3>
+                            <p>Crispy, deep-fried spirals soaked in fragrant saffron syrup. Best enjoyed warm for a
+                                burst of sweetness.</p>
+                        </div>
+                    </div>
+
+                    <!-- Offering 5 -->
+                    <div class="offering-card fade-up delay-1">
+                        <div class="card-img-wrapper">
+                            <img src="assets/gulab-jamun.jpg" alt="Gulab Jamun" class="card-img">
+                            <div class="card-overlay">
+                                <a href="#contact" class="btn btn-orange btn-sm">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Gulab Jamun</h3>
+                            <p>Soft, melt-in-your-mouth milk solids dumplings soaked in a delicate rose and cardamom
+                                flavored syrup.</p>
+                        </div>
+                    </div>
+
+                    <!-- Offering 6 -->
+                    <div class="offering-card fade-up delay-2">
+                        <div class="card-img-wrapper">
+                            <img src="assets/pav-bhaji.webp" alt="Fresh Pav" class="card-img">
+                            <div class="card-overlay">
+                                <a href="#contact" class="btn btn-orange btn-sm">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Fresh Ladi Pav</h3>
+                            <p>Incredibly soft and fluffy homemade bread rolls, baked fresh daily. The quintessential
+                                companion for Bhaji or Vada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section bg-oatmeal relative">
+            <div class="container about-container">
+                <div class="about-typography fade-right">
+                    <div class="typography-card">
+                        <div class="quote-icon">❝</div>
+                        <blockquote class="about-quote">
+                            "Great bread is not made by machines or shortcuts. It is made by patience, passion, and the
+                            simple magic of flour, water, and time."
+                        </blockquote>
+                        <div class="quote-author">
+                            <span class="author-name">— Elena Rossi</span>
+                            <span class="author-title">Head Artisan Baker</span>
+                        </div>
+                    </div>
+
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years of Baking</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Organic Sourdough</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content fade-left">
+                    <span class="section-subtitle">Our Story</span>
+                    <h2 class="section-title">A Tradition of Slow Fermentation & Real Ingredients</h2>
+                    <p>At Golden Crust Bakery, we believe that great bread takes time. We refuse to use commercial yeast
+                        shortcuts, instead relying on wild sourdough cultures nurtured over years.</p>
+                    <p>Every loaf and pastry is hand-shaped, using only locally sourced organic flour from stoneground
+                        mills. It's a labor of love that you can taste in every single bite.</p>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                                </svg>
+                            </div>
+                            <span>Locally Sourced Floor</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                            </div>
+                            <span>Slow 48hr Fermentation</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </div>
+                            <span>Baked with Love</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section bg-cream">
+            <div class="container">
+                <div class="section-header text-center mb-0">
+                    <span class="section-subtitle">From the Oven</span>
+                    <h2 class="section-title">Freshly Baked Gallery</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <a href="assets/gallery1.webp" class="gallery-item item-1 fade-up">
+                        <img src="assets/gallery1.webp" alt="Fresh baked goods close up">
+                        <div class="gallery-overlay"><span>Croissants</span></div>
+                    </a>
+                    <a href="assets/gallery2.webp" class="gallery-item item-2 fade-up delay-1">
+                        <img src="assets/gallery2.webp" alt="Sourdough scoring">
+                        <div class="gallery-overlay"><span>Sourdough Art</span></div>
+                    </a>
+                    <a href="assets/gallery3.webp" class="gallery-item item-3 fade-up delay-2">
+                        <img src="assets/gallery3.webp" alt="Display case full of treats">
+                        <div class="gallery-overlay"><span>Daily Display</span></div>
+                    </a>
+                    <a href="assets/gallery4.webp" class="gallery-item item-4 fade-up">
+                        <img src="assets/gallery4.webp" alt="Pouring coffee with pastry">
+                        <div class="gallery-overlay"><span>Coffee Pairing</span></div>
+                    </a>
+                    <a href="assets/gallery5.webp" class="gallery-item item-5 fade-up delay-1">
+                        <img src="assets/gallery5.webp" alt="Fruit tarts row">
+                        <div class="gallery-overlay"><span>Fruit Tarts</span></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-espresso text-light relative">
+            <div class="contact-pattern"></div>
+            <div class="container contact-container relative z-10">
+                <div class="contact-info fade-right">
+                    <span class="section-subtitle dark-theme">Visit Us</span>
+                    <h2 class="section-title">Drop By Our Bakery</h2>
+                    <p class="contact-text">We'd love to see you! Come early for the best selection of warm bread and
+                        fresh pastries.</p>
+
+                    <div class="info-blocks">
+                        <div class="info-block">
+                            <h4 class="info-title">Location</h4>
+                            <p>12/4 Connaught Place, Block A<br>New Delhi, Delhi 110001</p>
+                        </div>
+                        <div class="info-block">
+                            <h4 class="info-title">Opening Hours</h4>
+                            <ul class="hours-list">
+                                <li><span>Tuesday - Friday</span> <span>7:00 AM - 3:00 PM</span></li>
+                                <li><span>Saturday - Sunday</span> <span>8:00 AM - 4:00 PM</span></li>
+                                <li><span>Monday</span> <span>Closed (Baking Prep)</span></li>
+                            </ul>
+                        </div>
+                        <div class="info-block">
+                            <h4 class="info-title">Contact</h4>
+                            <p><a href="tel:+1234567890" class="contact-link">(123) 456-7890</a></p>
+                            <p><a href="mailto:hello@goldencrust.com" class="contact-link">hello@goldencrust.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper fade-left">
+                    <form id="contactForm" class="contact-form">
+                        <h3>Reserve an Order</h3>
+                        <p>Planning something special? Let us know.</p>
+
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interest">Interested In</label>
+                            <select id="interest" name="interest">
+                                <option value="bread">Wholesale Bread</option>
+                                <option value="cake">Custom Cake</option>
+                                <option value="catering">Event Catering</option>
+                                <option value="other">General Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-orange w-full shadow-lg">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Map Embed (India) -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5654060875323!2d77.2273155!3d28.6144829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1714521000000!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0; filter: grayscale(20%) contrast(1.1) opacity(0.8);"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-text">Golden Crust</span>
+                    <span class="logo-sub">Bakery</span>
+                </a>
+                <p class="footer-desc">Crafting moments of joy with every loaf, deeply rooted in traditional baking
+                    methods.</p>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg></a>
+                    <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg></a>
+                </div>
+            </div>
+
+            <div class="footer-links-group">
+                <h4 class="footer-title">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#offerings">Menu</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-group">
+                <h4 class="footer-title">Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Allergen Info</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Golden Crust Bakery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <a href="https://wa.me/1234567890" target="_blank" class="fab fab-whatsapp" aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
